@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Big Shoulders Display' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+
   <title>Frontend Mentor | 3-column preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,22 +18,75 @@
   </style>
 </head>
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <!-- flex container start -->
+  <div class="container">
+<!-- row start -->
+   <div class="row"> 
+   <div class="column">
+  <div class="models" id="sedans">
+    <img src="images/icon-sedans.svg" alt="sedans">
+    <div class="test">
+    <h2>SEDANS</h2>
+    <br>
+    <p>Choose a sedan for its <br class="mobile-br"> 
+      affordability and excellent <br class="mobile-br">
+      fuel economy. Ideal for <br class="mobile-br">
+      cruising in the city or on <br class="mobile-br">
+      your next road trip.</p>   
+    <br>
+    <div>
+      <button class="button" id="sedans-button">Learn More</button>
+    </div>
+  </div>
+  </div>
+  </div>
+   
+  <div class="column">
+  <div id="suvs" class="models">
+    <img src="images/icon-suvs.svg" alt="suvs">
+    <div class="test">
+    <h2>SUVS</h2>
+    <br>
+    <p>Take an SUV for its spacious <br class="mobile-br">
+      interior, power, and <br class="mobile-br">
+      versatility. Perfect for your <br class="mobile-br"> 
+      next family vacation and <br class="mobile-br">
+      off-road adventures.</p>
+    <br>
+    <div>      
+      <button class="button" id="suv-button">Learn More</button>
+    </div>
+    </div>
+  </div>
+  </div>
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
+  <div class="column">
+  <div id="luxury" class="models">
+    <img src="images/icon-luxury.svg" alt="luxury">
+    <div class="test">
+    <h2>LUXURY</h2>
+    <br>
+    <p>Cruise in the best car brands <br class="mobile-br">
+       without the bloated prices. <br>
+       Enjoy the enhanced comfort <br >
+       of a luxury rental and arrive <br class="mobile-br">
+       in style.</p>
+    <div>
+      <br>
+      <button class="button" id="lux-button">Learn More</button>
+    </div>
+    </div>  
+  </div> 
+  </div>
 
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
+</div>
+<!-- row end -->
+  </div>
+  <!-- flex container end -->
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+    Coded by <a href="#">V1C</a>.
   </div>
 </body>
 </html>
