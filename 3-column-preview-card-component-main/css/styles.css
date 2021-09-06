@@ -1,12 +1,3 @@
-/* ### Font */
-/* Family: [Lexend Deca] */
-/* - Weights: 400 */
-/* @import url("https://fonts.google.com/specimen/Lexend+Deca"); */
-
-/* Family: [Big Shoulders Display] */
-/* - Weights: 700 */
-/* @import url("https://fonts.google.com/specimen/Big+Shoulders+Display"); */
-
 
 * {
     margin: 0;
@@ -17,7 +8,7 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 .container {
-    margin: 15% auto auto;
+    margin: 12% auto auto;
 
 
 }
